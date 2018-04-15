@@ -1,0 +1,22 @@
+ event2008
+
+ Timestamp is 57c82ff5 (Thu Sep 01 21:41:09 2016)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000023H .text                   CODE
+ 0002:00000000 0000001cH .rdata                  DATA
+ 0002:0000001c 0000003eH .rdata$debug            DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       _DriverUnload@4            00011000 f   Driver.obj
+ 0001:00000010       _DriverEntry@8             00011010 f   Driver.obj
+
+ entry point at        0000:00000000
+
+ Static symbols
+

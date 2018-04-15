@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+<OACRDEFECTCOUNT>4</OACRDEFECTCOUNT>
+<OACRERRORCOUNT>0</OACRERRORCOUNT>
+<DEFECT _seq="1"><SFA><LINE>207</LINE><COLUMN>32</COLUMN><FILENAME>analysispacket.c</FILENAME><FILEPATH>e:\net\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..</DESCRIPTION><FUNCTION>AnalysisPacket</FUNCTION><FUNCLINE>50</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="2"><SFA><LINE>217</LINE><COLUMN>30</COLUMN><FILENAME>analysispacket.c</FILENAME><FILEPATH>e:\net\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..</DESCRIPTION><FUNCTION>AnalysisPacket</FUNCTION><FUNCLINE>50</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="3"><SFA><LINE>238</LINE><COLUMN>32</COLUMN><FILENAME>analysispacket.c</FILENAME><FILEPATH>e:\net\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..</DESCRIPTION><FUNCTION>AnalysisPacket</FUNCTION><FUNCLINE>50</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="4"><SFA><LINE>249</LINE><COLUMN>30</COLUMN><FILENAME>analysispacket.c</FILENAME><FILEPATH>e:\net\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..</DESCRIPTION><FUNCTION>AnalysisPacket</FUNCTION><FUNCLINE>50</FUNCLINE><PATH/></DEFECT>
+</DEFECTS>

@@ -1,0 +1,49 @@
+2017年01月08日14:06:06|C:\Documents and Settings\Administrator\桌面\Test.exe|2636|C:\WINDOWS\system32\cmd.exe|创建|
+2017年01月08日14:15:03|C:\WINDOWS\explorer.exe|248|C:\WINDOWS\system32\cmd.exe|创建|
+2017年01月08日14:15:06|C:\WINDOWS\explorer.exe|248|C:\WINDOWS\system32\cmd.exe|创建|
+2017年01月08日14:15:08|C:\WINDOWS\explorer.exe|248|C:\WINDOWS\system32\cmd.exe|创建|
+2017年01月08日14:15:09|C:\WINDOWS\explorer.exe|248|C:\WINDOWS\system32\cmd.exe|创建|
+2017年01月08日14:15:11|C:\WINDOWS\explorer.exe|248|C:\WINDOWS\system32\sc.exe|创建|
+2017年01月08日15:04:29|C:\Documents and Settings\Administrator\桌面\Test.exe|1176|C:\WINDOWS\system32\cmd.exe|创建|
+2017年01月08日15:54:07|E:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin\MSDEV.EXE|1680|E:\FireWall\FireWall\Debug\FireWall.exe|结束|
+2017年01月09日16:46:40|C:\Documents and Settings\Administrator\桌面\Test.exe|1848|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月06日14:02:39|C:\WINDOWS\system32\cmd.exe|4024|C:\WINDOWS\system32\sc.exe|创建|
+2017年04月06日15:03:56|C:\WINDOWS\explorer.exe|552|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日18:36:21|C:\WINDOWS\system32\csrss.exe|864|C:\WINDOWS\system32\rundll32.exe|结束|
+2017年04月07日18:36:29|C:\WINDOWS\system32\csrss.exe|864|E:\WinDDK\7600.16385.1\bin\x86\OACR\bin\oacrmonitor.exe|结束|
+2017年04月07日18:36:37|C:\WINDOWS\system32\csrss.exe|864|C:\WINDOWS\system32\dumprep.exe|结束|
+2017年04月07日18:36:38|C:\WINDOWS\system32\csrss.exe|864|C:\WINDOWS\system32\ctfmon.exe|结束|
+2017年04月07日19:01:38|C:\Documents and Settings\Administrator\桌面\Test.exe|1620|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:15:26|C:\Documents and Settings\Administrator\桌面\Test.exe|1620|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:15:40|C:\WINDOWS\system32\csrss.exe|864|C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\Debug\FireWall.exe|结束|
+2017年04月07日19:15:51|C:\WINDOWS\system32\csrss.exe|864|C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\Debug\FireWall.exe|结束|
+2017年04月07日19:16:03|C:\WINDOWS\system32\csrss.exe|864|C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\Debug\FireWall.exe|结束|
+2017年04月07日19:16:03|C:\WINDOWS\system32\csrss.exe|864|C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\Debug\FireWall.exe|结束|
+2017年04月07日19:17:35|C:\Documents and Settings\Administrator\桌面\Test.exe|1620|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:22:55|C:\Documents and Settings\Administrator\桌面\Test.exe|1620|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:22:57|C:\Documents and Settings\Administrator\桌面\Test.exe|1620|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:22:59|C:\Documents and Settings\Administrator\桌面\Test.exe|1620|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:23:00|C:\Documents and Settings\Administrator\桌面\Test.exe|1620|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:23:02|C:\Documents and Settings\Administrator\桌面\Test.exe|1620|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:23:03|C:\Documents and Settings\Administrator\桌面\Test.exe|1620|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:23:14|C:\Documents and Settings\Administrator\桌面\Test.exe|1620|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:23:22|C:\Documents and Settings\Administrator\桌面\Test.exe|300|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:23:26|C:\Documents and Settings\Administrator\桌面\Test.exe|300|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:23:28|C:\Documents and Settings\Administrator\桌面\Test.exe|300|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:24:45|C:\Documents and Settings\Administrator\桌面\Test.exe|132|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:25:21|C:\Documents and Settings\Administrator\桌面\Test.exe|132|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:25:45|C:\WINDOWS\system32\csrss.exe|864|C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\Debug\FireWall.exe|结束|
+2017年04月07日19:26:51|C:\WINDOWS\system32\taskmgr.exe|1236|C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\Debug\FireWall.exe|结束|
+2017年04月07日19:51:30|C:\Documents and Settings\Administrator\桌面\Test.exe|2216|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:51:46|C:\Documents and Settings\Administrator\桌面\Test.exe|2216|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:51:49|C:\Documents and Settings\Administrator\桌面\Test.exe|2216|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:51:51|C:\Documents and Settings\Administrator\桌面\Test.exe|2216|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日19:52:11|C:\Documents and Settings\Administrator\桌面\Test.exe|2216|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日22:40:15|C:\Documents and Settings\Administrator\桌面\Test.exe|3932|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日22:40:29|C:\Documents and Settings\Administrator\桌面\Test.exe|3932|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日22:40:32|C:\Documents and Settings\Administrator\桌面\Test.exe|3932|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日22:43:41|C:\Documents and Settings\Administrator\桌面\Test.exe|3932|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日22:43:55|C:\Documents and Settings\Administrator\桌面\Test.exe|3932|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月07日22:44:03|C:\Documents and Settings\Administrator\桌面\Test.exe|3932|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月08日20:52:41|C:\Documents and Settings\Administrator\桌面\Test.exe|1736|C:\WINDOWS\system32\cmd.exe|创建|
+2017年04月08日20:52:45|C:\Documents and Settings\Administrator\桌面\Test.exe|1736|C:\WINDOWS\system32\cmd.exe|创建|

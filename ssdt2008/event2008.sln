@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "event2008", "event2008\event2008.vcproj", "{71B5BA5E-036C-4AC1-9580-5F2AA3FF62DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		check|Win32 = check|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71B5BA5E-036C-4AC1-9580-5F2AA3FF62DE}.check|Win32.ActiveCfg = check|Win32
+		{71B5BA5E-036C-4AC1-9580-5F2AA3FF62DE}.check|Win32.Build.0 = check|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

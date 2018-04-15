@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "install", "install\install.vcproj", "{1AB77EC3-7BD3-4EF5-BC29-127CDCBA4F44}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uninstall", "uninstall\uninstall.vcproj", "{3C61EEF5-46CF-4D92-88A0-37581944864B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AB77EC3-7BD3-4EF5-BC29-127CDCBA4F44}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1AB77EC3-7BD3-4EF5-BC29-127CDCBA4F44}.Debug|Win32.Build.0 = Debug|Win32
+		{1AB77EC3-7BD3-4EF5-BC29-127CDCBA4F44}.Release|Win32.ActiveCfg = Release|Win32
+		{1AB77EC3-7BD3-4EF5-BC29-127CDCBA4F44}.Release|Win32.Build.0 = Release|Win32
+		{3C61EEF5-46CF-4D92-88A0-37581944864B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3C61EEF5-46CF-4D92-88A0-37581944864B}.Debug|Win32.Build.0 = Debug|Win32
+		{3C61EEF5-46CF-4D92-88A0-37581944864B}.Release|Win32.ActiveCfg = Release|Win32
+		{3C61EEF5-46CF-4D92-88A0-37581944864B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

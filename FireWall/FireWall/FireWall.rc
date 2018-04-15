@@ -1,0 +1,361 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FireWall.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FIREWALL_DIALOG DIALOGEX 0, 0, 519, 321
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "FireWall"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tab1",IDC_TAB,"SysTabControl32",TCS_BUTTONS | 
+                    TCS_RAGGEDRIGHT,7,7,505,307,WS_EX_TRANSPARENT
+END
+
+IDD_PROCESS_DIALOG DIALOG DISCARDABLE  0, 0, 359, 212
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    CONTROL         "List1",IDC_LIST_PROCESS,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,20,345,144
+    PUSHBUTTON      "添加",IDC_BTN_ADD,75,182,46,10
+    PUSHBUTTON      "修改",IDC_BTN_UPDATE,187,182,46,10
+    PUSHBUTTON      "删除",IDC_BTN_DEL,131,182,46,10
+    PUSHBUTTON      "保存",IDC_BTN_SAVE,243,182,46,10
+    PUSHBUTTON      "拦截记录",IDC_BTN_LOG,299,182,46,10
+    EDITTEXT        IDC_EDIT_LIST,19,166,55,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "读取",IDC_BTN_READ,19,182,46,10
+END
+
+IDD_REG_DIALOG DIALOG DISCARDABLE  0, 0, 369, 219
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    CONTROL         "List1",IDC_LIST_REG,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,20,345,144
+    PUSHBUTTON      "添加",IDC_BTN_ADD,75,182,46,10
+    PUSHBUTTON      "修改",IDC_BTN_UPDATE,187,182,46,10
+    PUSHBUTTON      "删除",IDC_BTN_DEL,131,182,46,10
+    PUSHBUTTON      "保存",IDC_BTN_SAVE,243,182,46,10
+    PUSHBUTTON      "拦截记录",IDC_BTN_LOG,299,182,46,10
+    EDITTEXT        IDC_EDIT_LIST,19,166,55,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "读取",IDC_BTN_READ,19,182,46,10
+END
+
+IDD_LOG_LIST DIALOG DISCARDABLE  0, 0, 345, 203
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "拦截记录"
+FONT 10, "System"
+BEGIN
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_LIST | WS_BORDER | 
+                    WS_TABSTOP,7,24,331,152
+    PUSHBUTTON      "清空",IDC_DEL_LOG,186,183,38,13
+    PUSHBUTTON      "刷新",IDC_RE_READ,70,183,38,13
+END
+
+IDD_FILE_DIALOG DIALOG DISCARDABLE  0, 0, 369, 219
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    CONTROL         "List1",IDC_LIST_FILE,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,20,345,144
+    PUSHBUTTON      "添加",IDC_BTN_ADD,75,182,46,10
+    PUSHBUTTON      "修改",IDC_BTN_UPDATE,187,182,46,10
+    PUSHBUTTON      "删除",IDC_BTN_DEL,131,182,46,10
+    PUSHBUTTON      "保存",IDC_BTN_SAVE,243,182,46,10
+    PUSHBUTTON      "拦截记录",IDC_BTN_LOG,299,182,46,10
+    EDITTEXT        IDC_EDIT_LIST,19,166,55,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "读取",IDC_BTN_READ,19,182,46,10
+END
+
+IDD_INDEX_DIALOG DIALOG DISCARDABLE  0, 0, 165, 99
+STYLE WS_CHILD
+FONT 26, "新宋体"
+BEGIN
+    CONTROL         144,IDC_STATIC,"Static",SS_BITMAP,0,1,165,89
+END
+
+IDD_NET_DIALOG DIALOG DISCARDABLE  0, 0, 369, 219
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    CONTROL         "List1",IDC_LIST_FILE,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,20,345,144
+    PUSHBUTTON      "添加",IDC_BTN_ADD,61,182,36,10
+    PUSHBUTTON      "修改",IDC_BTN_UPDATE,145,182,36,10
+    PUSHBUTTON      "删除",IDC_BTN_DEL,106,182,36,10
+    PUSHBUTTON      "保存",IDC_BTN_SAVE,271,182,36,10
+    PUSHBUTTON      "拦截记录",IDC_BTN_LOG,313,182,36,10
+    EDITTEXT        IDC_EDIT_LIST,19,166,55,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "读取",IDC_BTN_READ,19,182,36,10
+    PUSHBUTTON      "下移",IDC_BTN_DOWN,229,182,36,10
+    PUSHBUTTON      "上移",IDC_BTN_UP,187,182,36,10
+END
+
+IDD_TOOL_DIALOG DIALOG DISCARDABLE  0, 0, 369, 219
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    GROUPBOX        "工具",IDC_STATIC,37,24,300,106
+    CONTROL         "禁止启动命令行",IDC_NO_CMD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,57,35,66,13
+    CONTROL         "防PING",IDC_NO_PING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,57,57,53,13
+    CONTROL         "禁止修改时间",IDC_NO_CHANGE_TIME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,239,78,71,13
+    CONTROL         "禁止创建用户",IDC_NO_ADD_USER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,57,78,71,13
+    CONTROL         "禁止删除用户",IDC_NO_DEL_USER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,143,78,71,13
+    CONTROL         "禁止打开注册表",IDC_NO_REG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,143,35,78,13
+    PUSHBUTTON      "保存",IDC_SAVE,201,101,65,14
+    PUSHBUTTON      "重置",IDC_RESET,102,101,65,14
+    CONTROL         "禁止网络连接",IDC_NO_NET,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,143,57,71,13
+    CONTROL         "禁止隐藏进程",IDC_NO_HIDE_THREAD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,239,35,71,13
+    CONTROL         "禁止驱动加载",IDC_NO_LOAD_DRVIER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,239,57,71,13
+    GROUPBOX        "系统设置",IDC_STATIC,37,135,299,68
+    CONTROL         "开机自启动",IDC_RUN_START,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,61,156,71,13
+    CONTROL         "关闭最小化到托盘",IDC_EXIT_TO_DISH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,203,155,88,13
+    PUSHBUTTON      "保存",IDC_SAVE_SYSTEM,201,177,65,14
+    PUSHBUTTON      "重置",IDC_RESET_SYSTEM,102,177,65,14
+END
+
+IDD_BOX_DIALOG DIALOG DISCARDABLE  0, 0, 207, 94
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "提示"
+FONT 10, "System"
+BEGIN
+    LTEXT           "",IDC_TEXT,7,7,193,56
+    PUSHBUTTON      "关闭(5)",IDC_MY_CLOSE,31,69,40,11
+    PUSHBUTTON      "查看详情",IDC_SEE,109,69,40,11
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "FireWall Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "FireWall\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2016\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "FireWall.EXE\0"
+            VALUE "ProductName", "FireWall 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FIREWALL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 512
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 314
+    END
+
+    IDD_PROCESS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 352
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_REG_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_LOG_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 338
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_FILE_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_NET_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_TOOL_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_BOX_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\wswz.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\3.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows 通信端口初始化失败。"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\FireWall.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,7 @@
+1>warnings in directory e:\net
+1>e:\net\analysispacket.c(207) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\net\analysispacket.c(217) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\net\analysispacket.c(238) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\net\analysispacket.c(249) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\net\hook.c(180) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\net\analysispacket.c(282) : warning C4715: 'AnalysisPacket' : not all control paths return a value

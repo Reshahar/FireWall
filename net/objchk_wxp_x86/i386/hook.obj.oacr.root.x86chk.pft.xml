@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+<OACRDEFECTCOUNT>3</OACRDEFECTCOUNT>
+<OACRERRORCOUNT>0</OACRERRORCOUNT>
+<DEFECT _seq="1"><SFA><LINE>180</LINE><COLUMN>42</COLUMN><FILENAME>hook.c</FILENAME><FILEPATH>e:\net\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..</DESCRIPTION><FUNCTION>myDeviceControl</FUNCTION><FUNCLINE>89</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="2"><SFA><LINE>120</LINE><COLUMN>102</COLUMN><FILENAME>hook.c</FILENAME><FILEPATH>e:\net\</FILEPATH></SFA><DEFECTCODE>28155</DEFECTCODE><DESCRIPTION>The function being assigned or passed should be a KSTART_ROUTINE function:  Add the declaration 'KSTART_ROUTINE Net_Pass_Thread_Func;' before the current first declaration of Net_Pass_Thread_Func.</DESCRIPTION><FUNCTION>myDeviceControl</FUNCTION><FUNCLINE>89</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="3"><SFA><LINE>123</LINE><COLUMN>103</COLUMN><FILENAME>hook.c</FILENAME><FILEPATH>e:\net\</FILEPATH></SFA><DEFECTCODE>28155</DEFECTCODE><DESCRIPTION>The function being assigned or passed should be a KSTART_ROUTINE function:  Add the declaration 'KSTART_ROUTINE Net_Deny_Thread_Func;' before the current first declaration of Net_Deny_Thread_Func.</DESCRIPTION><FUNCTION>myDeviceControl</FUNCTION><FUNCLINE>89</FUNCLINE><PATH/></DEFECT>
+</DEFECTS>

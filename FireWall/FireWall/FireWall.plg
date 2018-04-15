@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FireWall - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/FireWall.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\FireWallDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/FireWall.pdb" /machine:I386 /out:"Release/FireWall.exe" 
+".\Release\BoxDlg.obj"
+".\Release\FileDlg.obj"
+".\Release\FireWall.obj"
+".\Release\FireWallDlg.obj"
+".\Release\Global.obj"
+".\Release\IndexDlg.obj"
+".\Release\LogListDlg.obj"
+".\Release\NetDlg.obj"
+".\Release\ProcessDlg.obj"
+".\Release\RegDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\ToolDlg.obj"
+".\Release\FireWall.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E.tmp"
+<h3>Output Window</h3>
+Compiling...
+FireWallDlg.cpp
+C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\FireWallDlg.cpp(327) : warning C4101: 'index' : unreferenced local variable
+C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\FireWallDlg.cpp(1137) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\FireWallDlg.cpp(1180) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\FireWallDlg.cpp(1223) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\FireWallDlg.cpp(1250) : warning C4101: 'i' : unreferenced local variable
+C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\FireWallDlg.cpp(1250) : warning C4101: 'num' : unreferenced local variable
+C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\FireWallDlg.cpp(890) : warning C4715: 'CFireWallDlg::SendCurrentPath' : not all control paths return a value
+C:\Documents and Settings\Administrator\桌面\FireWall\FireWall\FireWallDlg.cpp(1073) : warning C4715: 'CFireWallDlg::SendNetCurrentPath' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+FireWall.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
